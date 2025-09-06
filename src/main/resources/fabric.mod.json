@@ -3,9 +3,10 @@
 	"id": "newtech",
 	"version": "${version}",
 	"name": "new tech",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A new tech type mod using vinilla stuffs",
+	"credits": "",
 	"authors": [
-		"Me!"
+		"Lagoon5956"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
