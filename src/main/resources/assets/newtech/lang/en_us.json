@@ -1,0 +1,25 @@
+{
+  "item.newtech.coal_dust": "Coal Dust",
+
+  "item.newtech.steel_ingot": "Steel Ingot",
+  "item.newtech.steel_nugget": "Steel Nugget",
+
+  "item.newtech.carbon_iron": "Carbon coverd Iron",
+
+  "item.newtech.r_sculkshard": "Refined Sculkshard",
+
+  "item.newtech.redstone_wire": "Redstone Wire",
+
+  "item.newtech.wire_weave": "Weaved Wire",
+
+  "item.newtech.gold_wire": "Gold Wire",
+  "item.newtech.scream_core": "Scream Core",
+
+
+
+
+
+  "itemGroup.newtech.new_tech": "New Tech",
+  "itemGroup.newtech.sitems": "Special Items",
+  "itemGroup.newtech.tools": "Newtech Tools"
+}

@@ -23,7 +23,7 @@
 			"net.lagoon.newtech.NewtechClient"
 		],
 		"fabric-datagen": [
-			"net.lagoon.newtech.NewTechDataGenerator"
+			"net.lagoon.newtech.datagen.ModDataGeneration"
 		]
 	},
 	"mixins": [

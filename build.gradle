@@ -18,11 +18,7 @@ repositories {
 	// for more information about repositories.
 }
 
-fabricApi {
-	configureDataGeneration {
-		client = true
-	}
-}
+
 
 dependencies {
 	// To change the versions see the gradle.properties file
@@ -45,19 +41,20 @@ processResources {
 
 def dataOutput = 'src/main/generated'
 
-loom {
+loom{
 	runs {
 		datagen{
 			server()
+
 			name "Data Generation"
-			vmArg "-Dfabric-api.datagen"
-			vmArg "-Dfabric.api.datagen.output-dir=${file(dataOutput)}"
+			vmArgs "-Dfabric-api.datagen"
+			vmArgs "-Dfabric-api.datagen.output-dir=${file(dataOutput)}"
 
 			runDir "build/datagen"
+
 		}
 	}
 }
-
 sourceSets { main { resources { srcDirs += dataOutput}}}
 
 
