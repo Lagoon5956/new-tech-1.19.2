@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_steel_block": {
+    "has_ch_diamondb": {
       "conditions": {
         "items": [
           {
             "items": [
-              "newtech:steel_block"
+              "newtech:ch_diamondb"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:steel_ingot"
+        "recipe": "minecraft:ch_diamond"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_steel_block",
+      "has_ch_diamondb",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:steel_ingot"
+      "minecraft:ch_diamond"
     ]
   }
 }

@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_steel_block": {
+    "has_coal_dust": {
       "conditions": {
         "items": [
           {
             "items": [
-              "newtech:steel_block"
+              "newtech:coal_dust"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:steel_ingot"
+        "recipe": "newtech:coal_dust_fromblock"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_steel_block",
+      "has_coal_dust",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:steel_ingot"
+      "newtech:coal_dust_fromblock"
     ]
   }
 }

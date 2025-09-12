@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_steel_ingot": {
+    "has_carbon_iron": {
       "conditions": {
         "items": [
           {
             "items": [
-              "newtech:steel_ingot"
+              "newtech:carbon_iron"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:steel_nugget"
+        "recipe": "minecraft:steel_ingot_from_smelting_carbon_iron"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_steel_ingot",
+      "has_carbon_iron",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:steel_nugget"
+      "minecraft:steel_ingot_from_smelting_carbon_iron"
     ]
   }
 }

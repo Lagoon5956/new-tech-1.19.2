@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "newtech:steel_block"
+      "item": "newtech:coal_dblock"
     }
   ],
   "result": {
-    "count": 9,
-    "item": "newtech:steel_ingot"
+    "count": 4,
+    "item": "newtech:coal_dust"
   }
 }

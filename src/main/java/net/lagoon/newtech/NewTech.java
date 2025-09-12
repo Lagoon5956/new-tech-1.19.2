@@ -3,6 +3,7 @@ package net.lagoon.newtech;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FuelRegistry;
+import net.lagoon.newtech.block.Modblocks;
 import net.lagoon.newtech.item.Moditems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,7 +15,9 @@ public class NewTech implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		Moditems.registerModItems();
+		Modblocks.registerModblocks();
 		FuelRegistry.INSTANCE.add(Moditems.COAL_DUST, 200);
+		FuelRegistry.INSTANCE.add(Modblocks.COAL_DBLOCK, 800);
 		LOGGER.info("Hello Fabric world!");
 	}
 }

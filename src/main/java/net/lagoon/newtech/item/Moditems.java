@@ -39,7 +39,12 @@ public class Moditems {
             new Item(new FabricItemSettings().group(ModitemGroup.NEWTECH)));
     public static final Item GOLD_WIRE = registerItem("gold_wire",
             new Item(new FabricItemSettings().group(ModitemGroup.NEWTECH)));
+    public static final Item COPPER_WIRE = registerItem("copper_wire",
+            new Item(new FabricItemSettings().group(ModitemGroup.NEWTECH)));
     public static final Item WIRE_WEAVE = registerItem("wire_weave",
+            new Item(new FabricItemSettings().group(ModitemGroup.NEWTECH)));
+
+        public static final Item CHARGED_DIAMOND = registerItem("ch_diamond",
             new Item(new FabricItemSettings().group(ModitemGroup.NEWTECH)));
 
 

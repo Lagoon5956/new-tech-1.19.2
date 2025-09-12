@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "newtech:steel_block",
+    "newtech:coal_dblock",
+    "newtech:ch_diamondb"
+  ]
+}

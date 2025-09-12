@@ -6,7 +6,7 @@
 
   "item.newtech.carbon_iron": "Carbon coverd Iron",
 
-  "item.newtech.r_sculkshard": "Refined Sculkshard",
+  "item.newtech.r_sculkshard": "Refined Echoshard",
 
   "item.newtech.redstone_wire": "Redstone Wire",
 
@@ -14,8 +14,13 @@
 
   "item.newtech.gold_wire": "Gold Wire",
   "item.newtech.scream_core": "Scream Core",
+  "item.newtech.ch_diamond": "Charged Diamond",
+  "item.newtech.copper_wire": "Copper Wire",
 
 
+  "block.newtech.steel_block": "Steel Block",
+  "block.newtech.coal_dblock": "Coal dust Block",
+  "block.newtech.ch_diamondb": "Charged Diamond Block",
 
 
 

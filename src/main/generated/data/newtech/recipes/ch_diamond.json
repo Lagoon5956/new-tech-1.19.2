@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "newtech:steel_block"
+      "item": "newtech:ch_diamondb"
     }
   ],
   "result": {
     "count": 9,
-    "item": "newtech:steel_ingot"
+    "item": "newtech:ch_diamond"
   }
 }
