@@ -18,6 +18,10 @@ public class Moditems {
 
     public static final Item COAL_DUST = registerItem("coal_dust",
             new Item(new FabricItemSettings().group(ModitemGroup.NEWTECH)));
+    public static final Item GEL = registerItem("gel",
+            new Item(new FabricItemSettings().group(ModitemGroup.NEWTECH)));
+    public static final Item WIRE_COAT = registerItem("wire_coat",
+            new Item(new FabricItemSettings().group(ModitemGroup.NEWTECH)));
 
     public static final Item STEEL_IN = registerItem("steel_ingot",
             new Item(new FabricItemSettings().group(ModitemGroup.NEWTECH)));

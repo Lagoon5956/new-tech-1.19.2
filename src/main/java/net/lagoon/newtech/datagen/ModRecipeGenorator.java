@@ -39,6 +39,13 @@ public class ModRecipeGenorator extends FabricRecipeProvider {
                 .criterion("has_steel_ingot", conditionsFromItem(Moditems.STEEL_IN))
                 .offerTo(exportor, new Identifier("newtech", "steel_nug"));
 
+        ShapelessRecipeJsonBuilder.create(Moditems.WIRE_COAT, 1)
+                        .input(Moditems.GEL)
+                        .input(Items.BLACK_DYE)
+                        .criterion("has_gel", conditionsFromItem(Moditems.GEL))
+                        .offerTo(exportor, new Identifier("newtech", "wire_coat"));
+
+
 
         ShapedRecipeJsonBuilder.create(Modblocks.COAL_DBLOCK, 1)
                 .pattern("##")
@@ -64,12 +71,21 @@ public class ModRecipeGenorator extends FabricRecipeProvider {
 
 
         FabricRecipeProvider.offerSmelting(exportor,
-                List.of(Moditems.C_IRON), // Inputs
+                List.of(Moditems.C_IRON),
 
                 Moditems.STEEL_IN,
                 0.6f,
                 900,
                 "Ciron_to_steel"
+        );
+
+        FabricRecipeProvider.offerSmelting(exportor,
+                List.of(Items.SLIME_BALL),
+
+                Moditems.GEL,
+                0.2f,
+                350,
+                "gel_recipe"
         );
 
         FabricRecipeProvider.offerBlasting(exportor,
