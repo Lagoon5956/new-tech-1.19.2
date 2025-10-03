@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 350,
+  "experience": 0.2,
+  "group": "gel_recipe",
+  "ingredient": {
+    "item": "minecraft:slime_ball"
+  },
+  "result": "newtech:gel"
+}
