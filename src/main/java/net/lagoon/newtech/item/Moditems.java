@@ -46,6 +46,8 @@ public class Moditems {
 
         public static final Item CHARGED_DIAMOND = registerItem("ch_diamond",
             new Item(new FabricItemSettings().group(ModitemGroup.NEWTECH)));
+        public static final Item IONIZED_REDSTONE = registerItem("ionized_redstone",
+                new Item(new FabricItemSettings().group(ModitemGroup.NEWTECH)));
 
 
 

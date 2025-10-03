@@ -27,8 +27,7 @@ public class ModLootTableGenerator extends SimpleFabricLootTableProvider {
                 BlockLootTableGenerator.drops(Modblocks.STEEL_BLOCK));
 
 
-        identifierBuilderBiConsumer.accept(new Identifier(NewTech.MOD_ID, "blocks/coal_dblock"),
-                BlockLootTableGenerator.drops(Modblocks.COAL_DBLOCK, Moditems.COAL_DUST));
+
         identifierBuilderBiConsumer.accept(new Identifier(NewTech.MOD_ID, "blocks/ch_diamondb"),
                 BlockLootTableGenerator.drops(Modblocks.CHARGED_DIAMONDB));
 

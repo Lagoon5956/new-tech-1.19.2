@@ -35,6 +35,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(Moditems.WIRE_WEAVE, Models.GENERATED);
         itemModelGenerator.register(Moditems.CHARGED_DIAMOND, Models.GENERATED);
         itemModelGenerator.register(Moditems.COPPER_WIRE, Models.GENERATED);
+        itemModelGenerator.register(Moditems.IONIZED_REDSTONE, Models.GENERATED);
 
     }
 }

@@ -1,9 +1,9 @@
-// 1.19.2	2025-09-11T15:39:07.1947392	Models
+// 1.19.2	2025-09-12T22:15:45.0996955	Models
 01cf787336a54192945aadc7b4b30a3cc77fbc05 assets\newtech\models\item\redstone_wire.json
 28d50e9363119f3bf663a802f5af89232c7da099 assets\newtech\blockstates\ch_diamondb.json
 839510e3f49de8da20c052d884340f317e25264d assets\newtech\models\item\r_sculkshard.json
-0f9dbd415b34ee0b5436a74d5d52a913dd48ded1 assets\newtech\blockstates\coal_dblock.json
 a96d7812903b508a2e7e0b3fcdebaf4bf4bf215e assets\newtech\blockstates\steel_block.json
+0f9dbd415b34ee0b5436a74d5d52a913dd48ded1 assets\newtech\blockstates\coal_dblock.json
 5036e5690a828c673e9938a2da1cda049a5a23a9 assets\newtech\models\block\coal_dblock.json
 add0cecb75d3d8ab5d9a227186da80b33d2dc838 assets\newtech\models\item\steel_ingot.json
 12ed89e10e076ea4a4a9c967a43d14e5993c7be7 assets\newtech\models\item\gold_wire.json
@@ -17,4 +17,5 @@ fa958dcc7ad55b82b8b8b4350c465e8b4b9e04af assets\newtech\models\item\ch_diamond.j
 841c5b0cdc84abd200f046c159013343d06b006d assets\newtech\models\item\wire_weave.json
 8dc7b2b1cfed295b3ccc3936352b946127edfa5b assets\newtech\models\item\steel_block.json
 337bf0d33fb1f226a1a1d1a5a7f80d4b8638fc27 assets\newtech\models\block\steel_block.json
+ba0381e27f226007cb281b6c45508ab67c95c6cd assets\newtech\models\item\ionized_redstone.json
 a0a53bc44a69aeb5b8bf096e24ef949078639a5f assets\newtech\models\item\coal_dust.json

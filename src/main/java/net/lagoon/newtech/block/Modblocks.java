@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.lagoon.newtech.NewTech;
 import net.lagoon.newtech.item.ModitemGroup;
 import net.minecraft.block.Block;
+import net.minecraft.block.FallingBlock;
 import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -20,7 +21,7 @@ public class Modblocks {
             new Block(FabricBlockSettings.of(Material.METAL).strength(1.2f, 1000f).requiresTool()
                     .sounds(BlockSoundGroup.METAL)), ModitemGroup.NEWTECH);
     public static final Block COAL_DBLOCK = registerBlock("coal_dblock",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(0.6f).requiresTool().strength(0.1f, 0.1f)
+            new FallingBlock(FabricBlockSettings.of(Material.STONE).strength(0.6f).requiresTool().strength(0.1f, 0.1f)
                     .sounds(BlockSoundGroup.GRAVEL)), ModitemGroup.NEWTECH);
     public static final Block CHARGED_DIAMONDB = registerBlock("ch_diamondb",
             new Block(FabricBlockSettings.of(Material.METAL).strength(1f).requiresTool().strength(1f, 5.0f)
